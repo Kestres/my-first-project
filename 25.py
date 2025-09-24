@@ -29,14 +29,14 @@ def main():
     user_metrics = UserMetrics(username)
     metrics = user_metrics.get_metrics()
     
-    print("\n" + "═" * 50)
+    print("\n" + "=" * 50)
     print("📊 ВАШИ МЕТРИКИ")
-    print("═" * 50)
+    print("=" * 50)
     
     for key, value in metrics.items():
         print(f"{key}: {value}")
     
-    print("═" * 50)
+    print("=" * 50)
     print(f"✨ Привет, {username}! ✨")
 
 if __name__ == "__main__":

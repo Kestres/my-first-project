@@ -1,0 +1,18 @@
+{
+    "project_name": "User Greeting System",
+    "version": "1.0.0",
+    "author": "Fedor815",
+    "created_date": "2024-12-19",
+    "metrics_tracked": [
+        "user_registration",
+        "login_count", 
+        "activity_level",
+        "user_engagement",
+        "session_duration"
+    ],
+    "settings": {
+        "auto_update": true,
+        "backup_enabled": true,
+        "log_level": "INFO"
+    }
+}
