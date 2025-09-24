@@ -1,0 +1,2 @@
+# Requirements for Python Greeting System
+python>=3.8
