@@ -1,18 +1,21 @@
 {
-    "project_name": "User Greeting System",
+    "project_name": "Team Greeting System",
     "version": "1.0.0",
-    "author": "Fedor815",
-    "created_date": "2024-12-19",
-    "metrics_tracked": [
-        "user_registration",
-        "login_count", 
-        "activity_level",
-        "user_engagement",
-        "session_duration"
+    "authors": [
+        "Fedor815",
+        "dddll01", 
+        "Teacher001-top"
+    ],
+    "repository_url": "https://github.com/Fedor815/team",
+    "features": [
+        "Приветствие пользователей",
+        "Отслеживание метрик",
+        "Сохранение статистики",
+        "Визуализация прогресса"
     ],
     "settings": {
-        "auto_update": true,
-        "backup_enabled": true,
-        "log_level": "INFO"
+        "auto_save_metrics": true,
+        "enable_colors": true,
+        "language": "ru"
     }
 }
